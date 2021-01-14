@@ -220,7 +220,6 @@ namespace WardenSpeedrunHelper {
 		}
 
 
-		// TODO remove hotkey to reload, instead keep it loaded and turn on / off with hotkey
 		void Update() {
 			if (Input.GetKeyDown(KeyCode.LeftAlt)) {
 				Cursor.visible = true;
